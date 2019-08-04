@@ -1,2 +1,2 @@
 # Beautiful-Folder
-Beautifully arrange all the files in a folder
+Beautiful Folder beautifully arranges all the files in a folder based on their extensions.
