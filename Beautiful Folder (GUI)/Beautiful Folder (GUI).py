@@ -12,7 +12,9 @@ root = Tk()
 root.title('Beautiful Folder')
 
 # Setting icon of the app
-#root.iconbitmap('folder.ico')
+if os.name == "nt":
+
+	root.iconbitmap("folder.ico")
 
 # Setting the size of the app	
 root.geometry('500x500')
