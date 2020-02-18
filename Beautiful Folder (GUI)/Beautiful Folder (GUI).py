@@ -86,7 +86,7 @@ def done(event):
 	messagebox.showinfo('Complete', f'Beautification of {os.path.basename(dir)} is complete')
 
 # Creating button
-button = Button(root, text='BEAUTIFY!',width=60, height=20, bg='red')
+button = Button(root, text='BEAUTIFY!',width=80, height=20, bg='red')
 button.grid(row=0, column=0)
 button.bind("<Button-1>", done)
 						
