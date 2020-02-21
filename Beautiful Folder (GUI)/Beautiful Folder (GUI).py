@@ -37,7 +37,7 @@ https://github.com/owbird
 def done(event):
 
 	# Selectin folder to beautify
-	dir = filedialog.askdirectory(title='Select folder to save files')
+	dir = filedialog.askdirectory(title='Select folder to beautify files')
 	
 	try:
 	
